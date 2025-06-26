@@ -59,7 +59,7 @@ void solve() {
         if (type == 1) {
             int idx, val;
             cin >> idx >> val;
-            ft.update(idx, val); // add v to index x
+            ft.update(idx, val); // add val to index idx
         } 
         else if (type == 2) {
             int l, r;
